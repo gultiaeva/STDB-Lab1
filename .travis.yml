@@ -11,6 +11,7 @@ services:
   - mysql
   
 before_install:
+  - mysql -e 'CREATE DATABASE library;'
   - mysql>source library.sql
 
 script:
