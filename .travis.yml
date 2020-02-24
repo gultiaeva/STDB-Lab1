@@ -11,7 +11,7 @@ services:
   - mysql
   
 before_install:
-  - mysql -e < ~/library.sql
+  - mysql -e < /library.sql
 
 script:
   - pytest
