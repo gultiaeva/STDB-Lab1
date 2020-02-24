@@ -9,10 +9,9 @@ install:
   
 services:
   - mysql
-  - cat
   
 before_install:
-  - mysql -e < cat ~/library.sql
+  - mysql -e < ~/library.sql
 
 script:
   - pytest
