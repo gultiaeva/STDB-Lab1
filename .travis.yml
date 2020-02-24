@@ -11,7 +11,7 @@ services:
   - mysql
   
 before_install:
-  - mysql -e 'CREATE DATABASE library;'; -e `cat library.sql`
+  - mysql -e < cat library.sql
 
 script:
   - pytest
