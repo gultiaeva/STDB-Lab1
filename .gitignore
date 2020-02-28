@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # credentials
-/credentials.py
+/database/credentials.py
+
+# idea
+/.idea
