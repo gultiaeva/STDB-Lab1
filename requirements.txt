@@ -2,7 +2,7 @@ backpack==0.1
 blinker==1.4
 certifi==2019.11.28
 chardet==3.0.4
-cleo==0.7.6
+cleo==0.6.8
 Click==7.0
 clikit==0.4.2
 Faker==0.8.18
@@ -15,7 +15,7 @@ Jinja2==2.11.1
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 orator==0.9.9
-pastel==0.2.0
+pastel==0.1.1
 pendulum==1.5.1
 pyaml==16.12.2
 Pygments==2.5.2
